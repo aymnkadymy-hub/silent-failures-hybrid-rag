@@ -6,7 +6,7 @@ Code, stored results and data descriptions for the paper
 
 Department of Artificial Intelligence Engineering, Al-Safwa University, Karbala, Iraq.
 
-This repository is private. It is shared with the journal's editors and reviewers on request. All rights reserved.
+This repository is public so that readers, editors and reviewers can check the results of the paper. All rights reserved.
 
 ## What is here
 
