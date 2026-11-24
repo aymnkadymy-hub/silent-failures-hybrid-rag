@@ -1,0 +1,44 @@
+{
+ "tau_int8": 3.6637439727783203,
+ "tau_registered": 0.05,
+ "tau_int8|random": {
+  "pairs": 147,
+  "detect_one_pair": 0.6598639455782312,
+  "detect_two_pairs": 0.8843074644823916
+ },
+ "tau_int8|inverted": {
+  "pairs": 147,
+  "detect_one_pair": 0.8571428571428571,
+  "detect_two_pairs": 0.9795918367346939
+ },
+ "tau_int8|constant": {
+  "pairs": 147,
+  "detect_one_pair": 0.6394557823129252,
+  "detect_two_pairs": 0.8700078670924152
+ },
+ "tau_int8|trunc": {
+  "pairs": 147,
+  "detect_one_pair": 0.1360544217687075,
+  "detect_two_pairs": 0.25359803785459767
+ },
+ "tau_registered|random": {
+  "pairs": 147,
+  "detect_one_pair": 0.9931972789115646,
+  "detect_two_pairs": 0.999953722985793
+ },
+ "tau_registered|inverted": {
+  "pairs": 147,
+  "detect_one_pair": 1.0,
+  "detect_two_pairs": 1.0
+ },
+ "tau_registered|constant": {
+  "pairs": 147,
+  "detect_one_pair": 1.0,
+  "detect_two_pairs": 1.0
+ },
+ "tau_registered|trunc": {
+  "pairs": 147,
+  "detect_one_pair": 0.9795918367346939,
+  "detect_two_pairs": 0.9995835068721366
+ }
+}

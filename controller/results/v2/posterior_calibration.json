@@ -1,0 +1,32 @@
+{
+ "quran|full": {
+  "confirmed": 1399,
+  "correct": 1399,
+  "accuracy": 1.0
+ },
+ "quran|partial": {
+  "confirmed": 100,
+  "correct": 22,
+  "accuracy": 0.22
+ },
+ "scifact|full": {
+  "confirmed": 700,
+  "correct": 699,
+  "accuracy": 0.9985714285714286
+ },
+ "scifact|partial": {
+  "confirmed": 50,
+  "correct": 3,
+  "accuracy": 0.06
+ },
+ "nfcorpus|full": {
+  "confirmed": 652,
+  "correct": 652,
+  "accuracy": 1.0
+ },
+ "nfcorpus|partial": {
+  "confirmed": 50,
+  "correct": 12,
+  "accuracy": 0.24
+ }
+}

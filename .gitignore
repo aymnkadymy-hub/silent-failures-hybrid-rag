@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+data/t1/
+data/quran_qa_2023/
+data/beir/
+data/int8_runs/

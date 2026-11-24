@@ -1,0 +1,16 @@
+{
+ "L_ok": 1294,
+ "L_strip": 940,
+ "L_raw": 1294,
+ "L_nofold": 1294,
+ "D_ok_ids": 1294,
+ "D_strip_ids": 152,
+ "D_raw_ids": 1294,
+ "D_unk_ids": 4,
+ "D_rand_ids": 32,
+ "D_mix25_ids": 1294,
+ "D_mix50_ids": 1294,
+ "D_mix75_ids": 1294,
+ "D_noise_ids": 1294,
+ "D_minilm_ids": 1294
+}

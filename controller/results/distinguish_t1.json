@@ -1,0 +1,267 @@
+{
+ "tests": [
+  "t_vec",
+  "t_col",
+  "t_srch",
+  "t_lex",
+  "t_lexraw",
+  "t_rr",
+  "t_store",
+  "t_canD",
+  "t_canL",
+  "t_canR"
+ ],
+ "causes": [
+  "NOFAULT",
+  "Q",
+  "L",
+  "Dtok",
+  "Denc",
+  "Didx",
+  "R",
+  "S"
+ ],
+ "with": {
+  "NOFAULT|Q": 1.0,
+  "NOFAULT|L": 0.98,
+  "NOFAULT|Dtok": 1.0,
+  "NOFAULT|Denc": 1.0,
+  "NOFAULT|Didx": 1.0,
+  "NOFAULT|R": 0.99,
+  "NOFAULT|S": 1.0,
+  "Q|L": 1.0,
+  "Q|Dtok": 1.0,
+  "Q|Denc": 1.0,
+  "Q|Didx": 1.0,
+  "Q|R": 1.0,
+  "Q|S": 1.0,
+  "L|Dtok": 1.0,
+  "L|Denc": 1.0,
+  "L|Didx": 1.0,
+  "L|R": 0.99,
+  "L|S": 1.0,
+  "Dtok|Denc": 0.912,
+  "Dtok|Didx": 0.98,
+  "Dtok|R": 1.0,
+  "Dtok|S": 1.0,
+  "Denc|Didx": 0.98,
+  "Denc|R": 1.0,
+  "Denc|S": 1.0,
+  "Didx|R": 1.0,
+  "Didx|S": 1.0,
+  "R|S": 1.0
+ },
+ "without": {
+  "NOFAULT|Q": 1.0,
+  "NOFAULT|L": 0.98,
+  "NOFAULT|Dtok": 1.0,
+  "NOFAULT|Denc": 1.0,
+  "NOFAULT|Didx": 1.0,
+  "NOFAULT|R": 0.99,
+  "NOFAULT|S": 1.0,
+  "Q|L": 1.0,
+  "Q|Dtok": 1.0,
+  "Q|Denc": 1.0,
+  "Q|Didx": 1.0,
+  "Q|R": 1.0,
+  "Q|S": 1.0,
+  "L|Dtok": 1.0,
+  "L|Denc": 1.0,
+  "L|Didx": 1.0,
+  "L|R": 0.99,
+  "L|S": 1.0,
+  "Dtok|Denc": 0.0,
+  "Dtok|Didx": 0.98,
+  "Dtok|R": 1.0,
+  "Dtok|S": 1.0,
+  "Denc|Didx": 0.98,
+  "Denc|R": 1.0,
+  "Denc|S": 1.0,
+  "Didx|R": 1.0,
+  "Didx|S": 1.0,
+  "R|S": 1.0
+ },
+ "best_test": {
+  "NOFAULT|Q": [
+   "t_canL",
+   "t_canL"
+  ],
+  "NOFAULT|L": [
+   "t_lex",
+   "t_lex"
+  ],
+  "NOFAULT|Dtok": [
+   "t_canD",
+   "t_canD"
+  ],
+  "NOFAULT|Denc": [
+   "t_canD",
+   "t_canD"
+  ],
+  "NOFAULT|Didx": [
+   "t_canD",
+   "t_canD"
+  ],
+  "NOFAULT|R": [
+   "t_canR",
+   "t_canR"
+  ],
+  "NOFAULT|S": [
+   "t_canR",
+   "t_canR"
+  ],
+  "Q|L": [
+   "t_canD",
+   "t_canD"
+  ],
+  "Q|Dtok": [
+   "t_canL",
+   "t_canL"
+  ],
+  "Q|Denc": [
+   "t_canL",
+   "t_canL"
+  ],
+  "Q|Didx": [
+   "t_canL",
+   "t_canL"
+  ],
+  "Q|R": [
+   "t_canL",
+   "t_canL"
+  ],
+  "Q|S": [
+   "t_canR",
+   "t_canR"
+  ],
+  "L|Dtok": [
+   "t_canD",
+   "t_canD"
+  ],
+  "L|Denc": [
+   "t_canD",
+   "t_canD"
+  ],
+  "L|Didx": [
+   "t_canD",
+   "t_canD"
+  ],
+  "L|R": [
+   "t_canR",
+   "t_canR"
+  ],
+  "L|S": [
+   "t_canR",
+   "t_canR"
+  ],
+  "Dtok|Denc": [
+   "t_col",
+   null
+  ],
+  "Dtok|Didx": [
+   "t_vec",
+   "t_vec"
+  ],
+  "Dtok|R": [
+   "t_canD",
+   "t_canD"
+  ],
+  "Dtok|S": [
+   "t_canR",
+   "t_canR"
+  ],
+  "Denc|Didx": [
+   "t_vec",
+   "t_vec"
+  ],
+  "Denc|R": [
+   "t_canD",
+   "t_canD"
+  ],
+  "Denc|S": [
+   "t_canR",
+   "t_canR"
+  ],
+  "Didx|R": [
+   "t_canD",
+   "t_canD"
+  ],
+  "Didx|S": [
+   "t_canR",
+   "t_canR"
+  ],
+  "R|S": [
+   "t_canL",
+   "t_canL"
+  ]
+ },
+ "cheap_with": {
+  "NOFAULT|Q": 0.98,
+  "NOFAULT|L": 0.98,
+  "NOFAULT|Dtok": 0.98,
+  "NOFAULT|Denc": 0.98,
+  "NOFAULT|Didx": 0.98,
+  "NOFAULT|R": 0.98,
+  "NOFAULT|S": 0.98,
+  "Q|L": 0.98,
+  "Q|Dtok": 0.98,
+  "Q|Denc": 0.98,
+  "Q|Didx": 0.98,
+  "Q|R": 0.98,
+  "Q|S": 0.98,
+  "L|Dtok": 0.98,
+  "L|Denc": 0.98,
+  "L|Didx": 0.98,
+  "L|R": 0.98,
+  "L|S": 0.98,
+  "Dtok|Denc": 0.912,
+  "Dtok|Didx": 0.98,
+  "Dtok|R": 0.98,
+  "Dtok|S": 0.98,
+  "Denc|Didx": 0.98,
+  "Denc|R": 0.98,
+  "Denc|S": 0.98,
+  "Didx|R": 0.98,
+  "Didx|S": 0.98,
+  "R|S": 0.98
+ },
+ "cheap_without": {
+  "NOFAULT|Q": 0.98,
+  "NOFAULT|L": 0.98,
+  "NOFAULT|Dtok": 0.98,
+  "NOFAULT|Denc": 0.98,
+  "NOFAULT|Didx": 0.0,
+  "NOFAULT|R": 0.98,
+  "NOFAULT|S": 0.98,
+  "Q|L": 0.98,
+  "Q|Dtok": 0.98,
+  "Q|Denc": 0.98,
+  "Q|Didx": 0.98,
+  "Q|R": 0.98,
+  "Q|S": 0.98,
+  "L|Dtok": 0.98,
+  "L|Denc": 0.98,
+  "L|Didx": 0.98,
+  "L|R": 0.98,
+  "L|S": 0.98,
+  "Dtok|Denc": 0.0,
+  "Dtok|Didx": 0.98,
+  "Dtok|R": 0.98,
+  "Dtok|S": 0.98,
+  "Denc|Didx": 0.98,
+  "Denc|R": 0.98,
+  "Denc|S": 0.98,
+  "Didx|R": 0.98,
+  "Didx|S": 0.98,
+  "R|S": 0.98
+ },
+ "separable_only_with_interventions": [
+  "Dtok|Denc"
+ ],
+ "inseparable_even_with": [],
+ "cheap_only_with_interventions": [
+  "NOFAULT|Didx",
+  "Dtok|Denc"
+ ],
+ "cheap_inseparable": []
+}

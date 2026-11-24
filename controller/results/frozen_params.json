@@ -1,0 +1,105 @@
+{
+ "delta": 1.0,
+ "h": 12.0,
+ "lat": 40,
+ "beta_eps": 1.0,
+ "grid": [
+  {
+   "delta": 0.25,
+   "h": 4.0,
+   "false_suspect_per_stream": 19.3,
+   "frac_false_confirm": 0.0,
+   "mean_delay_suspect": 36.85238095238095,
+   "mean_h20": 0.6813903700422358
+  },
+  {
+   "delta": 0.25,
+   "h": 6.0,
+   "false_suspect_per_stream": 10.916666666666666,
+   "frac_false_confirm": 0.0,
+   "mean_delay_suspect": 47.89999999999999,
+   "mean_h20": 0.6872388850759577
+  },
+  {
+   "delta": 0.25,
+   "h": 8.0,
+   "false_suspect_per_stream": 6.433333333333334,
+   "frac_false_confirm": 0.0,
+   "mean_delay_suspect": 54.090476190476195,
+   "mean_h20": 0.6907188870288707
+  },
+  {
+   "delta": 0.25,
+   "h": 12.0,
+   "false_suspect_per_stream": 2.75,
+   "frac_false_confirm": 0.0,
+   "mean_delay_suspect": 66.85238095238095,
+   "mean_h20": 0.6935037030114067
+  },
+  {
+   "delta": 0.5,
+   "h": 4.0,
+   "false_suspect_per_stream": 7.033333333333333,
+   "frac_false_confirm": 0.0,
+   "mean_delay_suspect": 43.042857142857144,
+   "mean_h20": 0.688817775690997
+  },
+  {
+   "delta": 0.5,
+   "h": 6.0,
+   "false_suspect_per_stream": 3.2,
+   "frac_false_confirm": 0.0,
+   "mean_delay_suspect": 55.32857142857143,
+   "mean_h20": 0.6924133311819148
+  },
+  {
+   "delta": 0.5,
+   "h": 8.0,
+   "false_suspect_per_stream": 1.85,
+   "frac_false_confirm": 0.0,
+   "mean_delay_suspect": 62.94761904761905,
+   "mean_h20": 0.6938481474364244
+  },
+  {
+   "delta": 0.5,
+   "h": 12.0,
+   "false_suspect_per_stream": 1.1833333333333333,
+   "frac_false_confirm": 0.0,
+   "mean_delay_suspect": 78.56666666666668,
+   "mean_h20": 0.6964511103100247
+  },
+  {
+   "delta": 1.0,
+   "h": 4.0,
+   "false_suspect_per_stream": 1.0666666666666667,
+   "frac_false_confirm": 0.0,
+   "mean_delay_suspect": 61.99523809523809,
+   "mean_h20": 0.6953337026966944
+  },
+  {
+   "delta": 1.0,
+   "h": 6.0,
+   "false_suspect_per_stream": 0.31666666666666665,
+   "frac_false_confirm": 0.0,
+   "mean_delay_suspect": 77.32857142857142,
+   "mean_h20": 0.6953892581992679
+  },
+  {
+   "delta": 1.0,
+   "h": 8.0,
+   "false_suspect_per_stream": 0.0,
+   "frac_false_confirm": 0.0,
+   "mean_delay_suspect": 84.95779967159277,
+   "mean_h20": 0.6969292574458652
+  },
+  {
+   "delta": 1.0,
+   "h": 12.0,
+   "false_suspect_per_stream": 0.0,
+   "frac_false_confirm": 0.0,
+   "mean_delay_suspect": 110.22551020408163,
+   "mean_h20": 0.7062137045242168
+  }
+ ],
+ "rule": "max mean dev Hit@20 over tuning scenarios among settings with no false confirmation and <= 4 false suspicions per 2,000-query healthy/shift stream"
+}

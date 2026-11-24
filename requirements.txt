@@ -1,0 +1,9 @@
+# GPU steps (encoding, reranking, testbed builds); versions used
+torch==2.14.0
+transformers==5.17.0
+tokenizers==0.23.2
+accelerate
+# replays, analysis and figures
+numpy>=2.5
+scipy==1.18.1
+matplotlib==3.11.2

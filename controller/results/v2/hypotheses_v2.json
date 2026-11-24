@@ -1,0 +1,170 @@
+[
+ [
+  "T4",
+  "confirmatory",
+  "H19",
+  "partial 30%: CIFC-Q 90.5, RRF 90.3, CIFC 85.8",
+  true
+ ],
+ [
+  "T4",
+  "confirmatory",
+  "H20",
+  "mean damage per 1,000 fault queries over 14 faults: CIFC-Q 143.1, CB 189.0",
+  true
+ ],
+ [
+  "T4",
+  "confirmatory",
+  "H21",
+  "min availability outside the store fault: 98.40%",
+  false
+ ],
+ [
+  "T4",
+  "confirmatory",
+  "H22",
+  "max regret with no fault or shift: -0.09 points",
+  true
+ ],
+ [
+  "T4",
+  "confirmatory",
+  "H23",
+  "adversarial: CIFC-Q 85.7, CIFC 84.4",
+  true
+ ],
+ [
+  "T4",
+  "confirmatory",
+  "H24",
+  "damage CIFC-Q/CB: D_adv 164/229; D_unk 151/159; partial 150/161",
+  true
+ ],
+ [
+  "T2",
+  "exploratory",
+  "H19",
+  "partial 30%: CIFC-Q 72.3, RRF 70.7, CIFC 64.5",
+  true
+ ],
+ [
+  "T2",
+  "exploratory",
+  "H20",
+  "mean damage per 1,000 fault queries over 14 faults: CIFC-Q 189.3, CB 230.2",
+  true
+ ],
+ [
+  "T2",
+  "exploratory",
+  "H21",
+  "min availability outside the store fault: 98.40%",
+  false
+ ],
+ [
+  "T2",
+  "exploratory",
+  "H22",
+  "max regret with no fault or shift: 0.00 points",
+  true
+ ],
+ [
+  "T2",
+  "exploratory",
+  "H23",
+  "adversarial: CIFC-Q 65.2, CIFC 64.0",
+  true
+ ],
+ [
+  "T2",
+  "exploratory",
+  "H24",
+  "damage CIFC-Q/CB: D_adv 284/326; D_unk 278/289; partial 280/357",
+  true
+ ],
+ [
+  "T3a",
+  "exploratory",
+  "H19",
+  "partial 30%: CIFC-Q 89.6, RRF 89.6, CIFC 88.0",
+  true
+ ],
+ [
+  "T3a",
+  "exploratory",
+  "H20",
+  "mean damage per 1,000 fault queries over 14 faults: CIFC-Q 119.6, CB 175.7",
+  true
+ ],
+ [
+  "T3a",
+  "exploratory",
+  "H21",
+  "min availability outside the store fault: 98.40%",
+  false
+ ],
+ [
+  "T3a",
+  "exploratory",
+  "H22",
+  "max regret with no fault or shift: 0.00 points",
+  true
+ ],
+ [
+  "T3a",
+  "exploratory",
+  "H23",
+  "adversarial: CIFC-Q 87.7, CIFC 87.2",
+  true
+ ],
+ [
+  "T3a",
+  "exploratory",
+  "H24",
+  "damage CIFC-Q/CB: D_adv 74/147; D_unk 63/63; partial 64/64",
+  true
+ ],
+ [
+  "T3b",
+  "exploratory",
+  "H19",
+  "partial 30%: CIFC-Q 75.0, RRF 75.0, CIFC 73.7",
+  true
+ ],
+ [
+  "T3b",
+  "exploratory",
+  "H20",
+  "mean damage per 1,000 fault queries over 14 faults: CIFC-Q 80.4, CB 108.2",
+  true
+ ],
+ [
+  "T3b",
+  "exploratory",
+  "H21",
+  "min availability outside the store fault: 98.40%",
+  false
+ ],
+ [
+  "T3b",
+  "exploratory",
+  "H22",
+  "max regret with no fault or shift: 0.00 points",
+  true
+ ],
+ [
+  "T3b",
+  "exploratory",
+  "H23",
+  "adversarial: CIFC-Q 73.6, CIFC 72.9",
+  true
+ ],
+ [
+  "T3b",
+  "exploratory",
+  "H24",
+  "damage CIFC-Q/CB: D_adv 61/99; D_unk 53/53; partial 54/54",
+  true
+ ]
+]

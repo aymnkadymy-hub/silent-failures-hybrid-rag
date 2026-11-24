@@ -1,0 +1,271 @@
+{
+ "tests": [
+  "t_vec",
+  "t_col",
+  "t_srch",
+  "t_lex",
+  "t_lexraw",
+  "t_store",
+  "t_canD",
+  "t_canL"
+ ],
+ "causes": [
+  "NOFAULT",
+  "Q",
+  "L",
+  "Dtok",
+  "Denc",
+  "Didx",
+  "R",
+  "S"
+ ],
+ "with": {
+  "NOFAULT|Q": 1.0,
+  "NOFAULT|L": 0.928,
+  "NOFAULT|Dtok": 1.0,
+  "NOFAULT|Denc": 0.98,
+  "NOFAULT|Didx": 0.98,
+  "NOFAULT|R": 0.0,
+  "NOFAULT|S": 0.98,
+  "Q|L": 1.0,
+  "Q|Dtok": 1.0,
+  "Q|Denc": 1.0,
+  "Q|Didx": 1.0,
+  "Q|R": 1.0,
+  "Q|S": 1.0,
+  "L|Dtok": 1.0,
+  "L|Denc": 0.98,
+  "L|Didx": 0.98,
+  "L|R": 0.928,
+  "L|S": 0.98,
+  "Dtok|Denc": 0.999,
+  "Dtok|Didx": 1.0,
+  "Dtok|R": 1.0,
+  "Dtok|S": 1.0,
+  "Denc|Didx": 0.98,
+  "Denc|R": 0.98,
+  "Denc|S": 0.98,
+  "Didx|R": 0.98,
+  "Didx|S": 0.98,
+  "R|S": 0.98
+ },
+ "without": {
+  "NOFAULT|Q": 1.0,
+  "NOFAULT|L": 0.928,
+  "NOFAULT|Dtok": 1.0,
+  "NOFAULT|Denc": 0.98,
+  "NOFAULT|Didx": 0.308,
+  "NOFAULT|R": 0.0,
+  "NOFAULT|S": 0.98,
+  "Q|L": 1.0,
+  "Q|Dtok": 1.0,
+  "Q|Denc": 1.0,
+  "Q|Didx": 1.0,
+  "Q|R": 1.0,
+  "Q|S": 1.0,
+  "L|Dtok": 1.0,
+  "L|Denc": 0.98,
+  "L|Didx": 0.928,
+  "L|R": 0.928,
+  "L|S": 0.98,
+  "Dtok|Denc": 0.999,
+  "Dtok|Didx": 1.0,
+  "Dtok|R": 1.0,
+  "Dtok|S": 1.0,
+  "Denc|Didx": 0.98,
+  "Denc|R": 0.98,
+  "Denc|S": 0.98,
+  "Didx|R": 0.308,
+  "Didx|S": 0.98,
+  "R|S": 0.98
+ },
+ "best_test": {
+  "NOFAULT|Q": [
+   "t_canL",
+   "t_canL"
+  ],
+  "NOFAULT|L": [
+   "t_lex",
+   "t_lex"
+  ],
+  "NOFAULT|Dtok": [
+   "t_canD",
+   "t_canD"
+  ],
+  "NOFAULT|Denc": [
+   "t_vec",
+   "t_vec"
+  ],
+  "NOFAULT|Didx": [
+   "t_srch",
+   "t_canD"
+  ],
+  "NOFAULT|R": [
+   null,
+   null
+  ],
+  "NOFAULT|S": [
+   "t_srch",
+   "t_store"
+  ],
+  "Q|L": [
+   "t_canD",
+   "t_canD"
+  ],
+  "Q|Dtok": [
+   "t_canL",
+   "t_canL"
+  ],
+  "Q|Denc": [
+   "t_canL",
+   "t_canL"
+  ],
+  "Q|Didx": [
+   "t_canL",
+   "t_canL"
+  ],
+  "Q|R": [
+   "t_canL",
+   "t_canL"
+  ],
+  "Q|S": [
+   "t_canL",
+   "t_canL"
+  ],
+  "L|Dtok": [
+   "t_canD",
+   "t_canD"
+  ],
+  "L|Denc": [
+   "t_vec",
+   "t_vec"
+  ],
+  "L|Didx": [
+   "t_srch",
+   "t_lex"
+  ],
+  "L|R": [
+   "t_lex",
+   "t_lex"
+  ],
+  "L|S": [
+   "t_srch",
+   "t_store"
+  ],
+  "Dtok|Denc": [
+   "t_canD",
+   "t_canD"
+  ],
+  "Dtok|Didx": [
+   "t_canD",
+   "t_canD"
+  ],
+  "Dtok|R": [
+   "t_canD",
+   "t_canD"
+  ],
+  "Dtok|S": [
+   "t_canD",
+   "t_canD"
+  ],
+  "Denc|Didx": [
+   "t_vec",
+   "t_vec"
+  ],
+  "Denc|R": [
+   "t_vec",
+   "t_vec"
+  ],
+  "Denc|S": [
+   "t_vec",
+   "t_vec"
+  ],
+  "Didx|R": [
+   "t_srch",
+   "t_canD"
+  ],
+  "Didx|S": [
+   "t_store",
+   "t_store"
+  ],
+  "R|S": [
+   "t_srch",
+   "t_store"
+  ]
+ },
+ "cheap_with": {
+  "NOFAULT|Q": 0.98,
+  "NOFAULT|L": 0.928,
+  "NOFAULT|Dtok": 0.98,
+  "NOFAULT|Denc": 0.98,
+  "NOFAULT|Didx": 0.98,
+  "NOFAULT|R": 0.0,
+  "NOFAULT|S": 0.98,
+  "Q|L": 0.98,
+  "Q|Dtok": 0.976,
+  "Q|Denc": 0.976,
+  "Q|Didx": 0.98,
+  "Q|R": 0.98,
+  "Q|S": 0.98,
+  "L|Dtok": 0.98,
+  "L|Denc": 0.98,
+  "L|Didx": 0.98,
+  "L|R": 0.928,
+  "L|S": 0.98,
+  "Dtok|Denc": 0.816,
+  "Dtok|Didx": 0.98,
+  "Dtok|R": 0.98,
+  "Dtok|S": 0.98,
+  "Denc|Didx": 0.98,
+  "Denc|R": 0.98,
+  "Denc|S": 0.98,
+  "Didx|R": 0.98,
+  "Didx|S": 0.98,
+  "R|S": 0.98
+ },
+ "cheap_without": {
+  "NOFAULT|Q": 0.98,
+  "NOFAULT|L": 0.928,
+  "NOFAULT|Dtok": 0.98,
+  "NOFAULT|Denc": 0.98,
+  "NOFAULT|Didx": 0.0,
+  "NOFAULT|R": 0.0,
+  "NOFAULT|S": 0.98,
+  "Q|L": 0.98,
+  "Q|Dtok": 0.976,
+  "Q|Denc": 0.976,
+  "Q|Didx": 0.98,
+  "Q|R": 0.98,
+  "Q|S": 0.98,
+  "L|Dtok": 0.98,
+  "L|Denc": 0.98,
+  "L|Didx": 0.928,
+  "L|R": 0.928,
+  "L|S": 0.98,
+  "Dtok|Denc": 0.0,
+  "Dtok|Didx": 0.98,
+  "Dtok|R": 0.98,
+  "Dtok|S": 0.98,
+  "Denc|Didx": 0.98,
+  "Denc|R": 0.98,
+  "Denc|S": 0.98,
+  "Didx|R": 0.0,
+  "Didx|S": 0.98,
+  "R|S": 0.98
+ },
+ "separable_only_with_interventions": [
+  "NOFAULT|Didx",
+  "Didx|R"
+ ],
+ "inseparable_even_with": [
+  "NOFAULT|R"
+ ],
+ "cheap_only_with_interventions": [
+  "NOFAULT|Didx",
+  "Dtok|Denc",
+  "Didx|R"
+ ],
+ "cheap_inseparable": [
+  "NOFAULT|R"
+ ]
+}

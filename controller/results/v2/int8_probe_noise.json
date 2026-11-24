@@ -1,0 +1,178 @@
+{
+ "int8|C|b1": {
+  "pairs": 9600,
+  "max": 1.3674712181091309,
+  "p99": 0.7465529489517215,
+  "flag_rate_005_all": 0.8436458333333333,
+  "flag_rate_005_one_pair": 0.86,
+  "questions": 200
+ },
+ "int8|C|b16": {
+  "pairs": 9600,
+  "max": 1.2827119827270508,
+  "p99": 0.6587729680538178,
+  "flag_rate_005_all": 0.5616666666666666,
+  "flag_rate_005_one_pair": 0.86,
+  "questions": 200
+ },
+ "int8|C|b48": {
+  "pairs": 9600,
+  "max": 1.1872227191925049,
+  "p99": 0.7153337645530703,
+  "flag_rate_005_all": 0.8388541666666667,
+  "flag_rate_005_one_pair": 0.83,
+  "questions": 200
+ },
+ "int8|C|padlive": {
+  "pairs": 9600,
+  "max": 1.4744486808776855,
+  "p99": 0.7641138754040004,
+  "flag_rate_005_all": 0.8459375,
+  "flag_rate_005_one_pair": 0.855,
+  "questions": 200
+ },
+ "int8|C|sorted": {
+  "pairs": 9600,
+  "max": 1.3091263473033905,
+  "p99": 0.7249806904792786,
+  "flag_rate_005_all": 0.8403125,
+  "flag_rate_005_one_pair": 0.81,
+  "questions": 200
+ },
+ "int8|P|b1": {
+  "pairs": 5136,
+  "max": 1.3678777813911438,
+  "p99": 0.6997774146497238,
+  "flag_rate_005_all": 0.8181464174454829,
+  "flag_rate_005_one_pair": 0.9345794392523364,
+  "questions": 107
+ },
+ "int8|P|pad256": {
+  "pairs": 5136,
+  "max": 1.5580635070800781,
+  "p99": 0.6977785587310789,
+  "flag_rate_005_all": 0.8156152647975078,
+  "flag_rate_005_one_pair": 0.8878504672897196,
+  "questions": 107
+ },
+ "int8|P|padlive": {
+  "pairs": 5136,
+  "max": 1.5580635070800781,
+  "p99": 0.6990112781524652,
+  "flag_rate_005_all": 0.817367601246106,
+  "flag_rate_005_one_pair": 0.8878504672897196,
+  "questions": 107
+ },
+ "int8|P|perm1": {
+  "pairs": 5136,
+  "max": 1.4029946327209473,
+  "p99": 0.7062836527824395,
+  "flag_rate_005_all": 0.8142523364485982,
+  "flag_rate_005_one_pair": 0.822429906542056,
+  "questions": 107
+ },
+ "int8|P|perm2": {
+  "pairs": 5136,
+  "max": 1.0691442489624023,
+  "p99": 0.6660469889640805,
+  "flag_rate_005_all": 0.8163940809968847,
+  "flag_rate_005_one_pair": 0.8037383177570093,
+  "questions": 107
+ },
+ "int8|P|perm3": {
+  "pairs": 5136,
+  "max": 1.8318719863891602,
+  "p99": 0.6908717870712269,
+  "flag_rate_005_all": 0.8136682242990654,
+  "flag_rate_005_one_pair": 0.8878504672897196,
+  "questions": 107
+ },
+ "int8|P|perm4": {
+  "pairs": 5136,
+  "max": 1.6503381729125977,
+  "p99": 0.6613492012023909,
+  "flag_rate_005_all": 0.8029595015576324,
+  "flag_rate_005_one_pair": 0.8691588785046729,
+  "questions": 107
+ },
+ "int8|P|perm5": {
+  "pairs": 5136,
+  "max": 1.8216686248779297,
+  "p99": 0.6813856244087217,
+  "flag_rate_005_all": 0.8107476635514018,
+  "flag_rate_005_one_pair": 0.8878504672897196,
+  "questions": 107
+ },
+ "int8|P|perm6": {
+  "pairs": 5136,
+  "max": 1.3495111465454102,
+  "p99": 0.6708313465118397,
+  "flag_rate_005_all": 0.8033489096573209,
+  "flag_rate_005_one_pair": 0.8130841121495327,
+  "questions": 107
+ },
+ "int8|P|perm7": {
+  "pairs": 5136,
+  "max": 1.195076048374176,
+  "p99": 0.6398740768432613,
+  "flag_rate_005_all": 0.8126947040498442,
+  "flag_rate_005_one_pair": 0.8598130841121495,
+  "questions": 107
+ },
+ "fp32|C|b1": {
+  "pairs": 9600,
+  "max": 0.0,
+  "p99": 0.0,
+  "flag_rate_005_all": 0.0,
+  "flag_rate_005_one_pair": 0.0,
+  "questions": 200
+ },
+ "frozen|C|b1": {
+  "pairs": 9600,
+  "max": 0.0,
+  "p99": 0.0,
+  "flag_rate_005_all": 0.0,
+  "flag_rate_005_one_pair": 0.0,
+  "questions": 200
+ },
+ "frozen|C|b48": {
+  "pairs": 9600,
+  "max": 0.0,
+  "p99": 0.0,
+  "flag_rate_005_all": 0.0,
+  "flag_rate_005_one_pair": 0.0,
+  "questions": 200
+ },
+ "frozen|C|sorted": {
+  "pairs": 9600,
+  "max": 0.0,
+  "p99": 0.0,
+  "flag_rate_005_all": 0.0,
+  "flag_rate_005_one_pair": 0.0,
+  "questions": 200
+ },
+ "frozen|P|b1": {
+  "pairs": 5136,
+  "max": 0.0,
+  "p99": 0.0,
+  "flag_rate_005_all": 0.0,
+  "flag_rate_005_one_pair": 0.0,
+  "questions": 107
+ },
+ "frozen|P|b48": {
+  "pairs": 5136,
+  "max": 0.0,
+  "p99": 0.0,
+  "flag_rate_005_all": 0.0,
+  "flag_rate_005_one_pair": 0.0,
+  "questions": 107
+ },
+ "frozen|P|sorted": {
+  "pairs": 5136,
+  "max": 0.0,
+  "p99": 0.0,
+  "flag_rate_005_all": 0.0,
+  "flag_rate_005_one_pair": 0.0,
+  "questions": 107
+ }
+}
